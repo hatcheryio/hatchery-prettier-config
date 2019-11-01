@@ -1,9 +1,15 @@
 {
   "name": "@hatchery/prettier-config",
-  "version": "1.0.0",
-  "prettier": "@hatchery/prettier-config",
+  "version": "0.0.1",
   "description": "hatchery prettier config",
-  "main": "index.json",
-  "repository": "git@github.com:hatcheryio/prettier-config.git",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hatcheryio/prettier-config.git"
+  },
   "author": "",
+  "bugs": {
+    "url": "https://github.com/hatcheryio/prettier-config/issues"
+  },
+  "homepage": "https://github.com/hatcheryio/prettier-config#readme"
 }
