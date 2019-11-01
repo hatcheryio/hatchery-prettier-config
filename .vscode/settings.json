@@ -1,0 +1,35 @@
+{
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.border": "#000",
+    "activityBar.background": "#1d263a",
+    "activityBar.foreground": "#ff6600",
+    "titleBar.activeBackground": "#1d263a",
+    "titleBar.activeForeground": "#ff6600"
+  },
+  "deploy.reloaded": {
+    "showPopupOnSuccess": true,
+    "showPopupWhenFinished": 1,
+    "packages": [
+      {
+        "name": "staging-v2",
+        "description": "Staging v2 backend",
+        "files": ["**/*"],
+        "exclude": [
+          "node_modules/**",
+          ".env"
+        ]
+      }
+    ],
+    "targets": [
+      {
+        "type": "sftp",
+        "name": "Staging V2 AWS",
+        "host": "18.197.218.107",
+        "port": 22,
+        "user": "ubuntu",
+        "privateKey": "/Users/Florian Merz/.ssh/staging-v2.pem",
+        "dir": "/opt/nodejs"
+      }
+    ]
+  }
+}
