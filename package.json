@@ -1,6 +1,6 @@
 {
   "name": "@hatchery/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "hatchery prettier config",
   "main": "index.json",
   "repository": {
