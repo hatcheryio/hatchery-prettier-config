@@ -2,7 +2,7 @@
   "name": "@hatchery/prettier-config",
   "version": "0.0.1",
   "description": "hatchery prettier config",
-  "main": "index.js",
+  "main": "index.json",
   "repository": {
     "type": "git",
     "url": "git+http://git@github.com/hatcheryio/prettier-config.git"
