@@ -6,5 +6,5 @@
 **Install**:
 
 ```npm
-$ npm i --save-dev hatcheryio/prettier-config
+$ npm i --save-dev @hatchery/prettier-config
 ```
