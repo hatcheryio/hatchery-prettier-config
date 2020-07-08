@@ -10,5 +10,13 @@
   "bracketSpacing": true,
   "jsxBracketSameLine": true,
   "arrowParens": "avoid",
-  "htmlWhitespaceSensitivity": "css"
+  "htmlWhitespaceSensitivity": "css",
+  "overrides": [
+    {
+      "files": ["*.html", "*.php"],
+      "options": {
+        "printWidth": 1000
+      }
+    }
+  ]
 }
