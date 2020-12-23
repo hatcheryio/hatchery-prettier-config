@@ -17,6 +17,12 @@
       "options": {
         "printWidth": 1000
       }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json"
+      }
     }
   ]
 }
