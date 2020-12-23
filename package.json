@@ -11,5 +11,11 @@
   "bugs": {
     "url": "https://github.com/hatcheryio/prettier-config/issues"
   },
-  "homepage": "https://github.com/hatcheryio/prettier-config#readme"
+  "homepage": "https://github.com/hatcheryio/prettier-config#readme",
+  "devDependencies": {
+    "release-it": "^14.2.2"
+  },
+  "scripts": {
+    "release": "release-it --only-version"
+  }
 }
