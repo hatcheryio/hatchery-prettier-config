@@ -6,30 +6,52 @@
     "titleBar.activeBackground": "#1d263a",
     "titleBar.activeForeground": "#ff6600"
   },
-  "deploy.reloaded": {
-    "showPopupOnSuccess": true,
-    "showPopupWhenFinished": 1,
-    "packages": [
-      {
-        "name": "staging-v2",
-        "description": "Staging v2 backend",
-        "files": ["**/*"],
-        "exclude": [
-          "node_modules/**",
-          ".env"
-        ]
-      }
-    ],
-    "targets": [
-      {
-        "type": "sftp",
-        "name": "Staging V2 AWS",
-        "host": "18.197.218.107",
-        "port": 22,
-        "user": "ubuntu",
-        "privateKey": "/Users/Florian Merz/.ssh/staging-v2.pem",
-        "dir": "/opt/nodejs"
-      }
-    ]
-  }
+  "gitmoji.onlyUseAdditionalEmojis": true,
+  "gitmoji.additionalEmojis": [
+    {
+      "emoji": "✨ feat:",
+      "code": ":feat:",
+      "description": "Introduce new features"
+    },
+    {
+      "emoji": "🐛 fix:",
+      "code": ":fix:",
+      "description": "Fixes a bug for the user (not build/CI related)"
+    },
+    {
+      "emoji": "💬 content:",
+      "code": ":content:",
+      "description": "Add or update content"
+    },
+    {
+      "emoji": "🧹 chore:",
+      "code": ":chore:",
+      "description": "Update build system or external dependencies (e.g. gulp tasks)"
+    },
+    {
+      "emoji": "🏗 ci:",
+      "code": ":ci:",
+      "description": "Add or update CI configuration or scripts"
+    },
+    {
+      "emoji": "📖 docs:",
+      "code": ":docs:",
+      "description": "Add or update the documentation"
+    },
+    {
+      "emoji": "♻️ refactor:",
+      "code": ":refactor:",
+      "description": "Refactor code"
+    },
+    {
+      "emoji": "🧪 test:",
+      "code": ":test:",
+      "description": "Add or update tests"
+    },
+    {
+      "emoji": "🏷 release:",
+      "code": ":release:",
+      "description": "Publish a release"
+    }
+  ]
 }
