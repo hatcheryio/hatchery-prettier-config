@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/hatcheryio/prettier-config#readme",
   "devDependencies": {
-    "release-it": "^14.2.2"
+    "release-it": "^14.6.2"
   },
   "scripts": {
     "release": "release-it --only-version"
