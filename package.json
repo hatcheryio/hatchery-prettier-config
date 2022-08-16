@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+http://git@github.com/hatcheryio/prettier-config.git"
   },
-  "author": "",
+  "author": "hatchery GmbH <dev@hatchery.io>",
   "bugs": {
     "url": "https://github.com/hatcheryio/prettier-config/issues"
   },
